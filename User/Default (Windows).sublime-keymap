@@ -1,0 +1,27 @@
+[
+	
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+
+	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	// { "keys": ["ctrl+d"], "command": "delete_select_line" },
+
+	{ "keys": ["ctrl+alt+down"], "command": "duplicate_line" },
+
+	{ "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["ctrl+alt+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+	{ "keys": ["ctrl+shift+f"], "command": "no"},
+
+	{ "keys": ["ctrl+shift+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true} },
+
+	{ "keys": ["ctrl+="], "command": "no" },
+
+	{ "keys": ["ctrl+-"], "command": "jump_back" },
+	{ "keys": ["ctrl+shift+-"], "command": "jump_forward" },
+
+	{ "keys": ["alt+`"], "command": "toggle_side_bar" },
+
+	{ "keys": ["ctrl+t"], "command": "example" }
+
+]

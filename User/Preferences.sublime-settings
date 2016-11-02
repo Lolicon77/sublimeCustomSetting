@@ -1,0 +1,40 @@
+{
+	"color_scheme": "Packages/Theme - Afterglow/Afterglow-twilight.tmTheme",
+	"default_line_ending": "windows",
+	
+	"file_exclude_patterns":
+	[
+		"*.meta",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+
+
+	"sidebar_size_14": true,
+	"status_bar_brighter": true,
+	"tabs_small": true,
+	"theme": "Afterglow-blue.sublime-theme"
+}
