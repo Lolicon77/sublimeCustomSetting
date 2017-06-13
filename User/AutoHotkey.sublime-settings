@@ -1,0 +1,12 @@
+{
+
+    // Set here path to AutoHotkey.exe executable to use for the build and ahkrunpiped command.
+    // AutoHotKeyExePath and Ahk2ExePath are a list of string paths - starting from the beginning of the list if a path is not found then the subsequent path will be attempted.
+
+    "word_separators": "./\\()\"'-:,.;<>~!@#$^&*|+=[]{}`~?",
+
+    "AutoHotKeyExePath": [ "D:\\Program Files\\AutoHotkey_1.1.24.05\\AutoHotkeyU64.exe"],
+
+    "Ahk2ExePath": [  "D:\\Program Files\\AutoHotkey_1.1.24.05\\Compiler\\Ahk2Exe.exe"]
+
+}

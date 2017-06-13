@@ -1,6 +1,6 @@
 {
+	"color_scheme": "Packages/Theme - Afterglow/Afterglow-monokai.tmTheme",
 	"default_line_ending": "windows",
-	
 	"file_exclude_patterns":
 	[
 		"*.meta",
@@ -25,25 +25,15 @@
 		"*.db",
 		"*.sublime-workspace"
 	],
-
-	"font_size": 15,
+	"font_size": 16,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-
-    // Display file encoding in the status bar
-    "show_encoding": true,
-
-    // Display line endings in the status bar
-    "show_line_endings": true,
-
-
-    //theme setting
+	"show_encoding": true,
+	"show_line_endings": true,
 	"sidebar_size_14": true,
 	"status_bar_brighter": true,
 	"tabs_small": true,
-
-	"color_scheme": "Packages/Theme - Afterglow/Afterglow-twilight.tmTheme",
 	"theme": "Afterglow-blue.sublime-theme"
 }
