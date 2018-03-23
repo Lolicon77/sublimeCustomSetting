@@ -23,6 +23,26 @@
 	{ "keys": ["alt+`"], "command": "toggle_side_bar" },
 
 	{ "keys": ["ctrl+'"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
-	{ "keys": ["ctrl+t"], "command": "example" }
+	// { "keys": ["ctrl+t"], "command": "example" },
+	{
+		"keys": ["ctrl+alt+1"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{
+		"keys": ["ctrl+alt+2"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
 
 ]
